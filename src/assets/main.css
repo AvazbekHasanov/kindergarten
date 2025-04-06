@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@import "tailwindcss/utilities";
+.el-message {
+    top: 20px !important;  /* Adjust as needed */
+    right: -70px !important;
+    left: auto !important;
+}
+
