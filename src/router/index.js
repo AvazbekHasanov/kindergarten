@@ -58,4 +58,18 @@ const router = createRouter({
   ],
 })
 
+// ✅ Navigation Guard
+router.beforeEach((to, from, next) => {
+  const publicPages = ['/sign', '/'];
+  const authRequired = !publicPages.includes(to.path);
+  const token = localStorage.getItem('token');
+
+  if (authRequired && !token) {
+    return next('/sign');
+  }
+
+  next();
+});
+
+
 export default router
