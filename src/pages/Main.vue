@@ -36,40 +36,42 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-      <div class="owl-carousel header-carousel position-relative">
-        <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="@/assets/img/carousel-1.jpg" alt="">
+    <el-carousel trigger="click" class="container-fluid p-0 mb-5">
+      <el-carousel-item>
+        <div class="position-relative">
+          <img class="img-fluid" src="@/assets/img/carousel-1.jpg" alt="" />
           <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
             <div class="container">
               <div class="row justify-content-start">
                 <div class="col-10 col-lg-8">
                   <h1 class="display-2 text-white animated slideInDown mb-4">Farzandingiz uchun eng yaxshi bolalar bog'chasi</h1>
-                  <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                  <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Batafsil</a>
-                  <a href="" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Darslarimiz</a>
+                  <p class="fs-5 fw-medium text-white mb-4 pb-2">Bizning bolalar bog'chamiz farzandingizning bilim va rivojlanishiga katta hissa qo'shadi. Har bir bola uchun qulay va xavfsiz o'quv muhitini ta'minlaymiz.</p>
+                  <el-button type="primary" class="rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Batafsil</el-button>
+                  <el-button type="dark" class="rounded-pill py-sm-3 px-sm-5 animated slideInRight">Darslarimiz</el-button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="@/assets/img/carousel-2.jpg" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <div class="position-relative">
+          <img class="img-fluid" src="@/assets/img/carousel-2.jpg" alt="" />
           <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
             <div class="container">
               <div class="row justify-content-start">
                 <div class="col-10 col-lg-8">
                   <h1 class="display-2 text-white animated slideInDown mb-4">Farzandingiz uchun yorqin kelajak yarating</h1>
-                  <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                  <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Batafsil</a>
-                  <a href="" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Darslarimiz</a>
+                  <p class="fs-5 fw-medium text-white mb-4 pb-2">Farzandingiz uchun eng yaxshi ta'lim va rivojlanish imkoniyatlarini taqdim etamiz. Bizning maqsadimiz har bir bolaning potensialini to'liq ochib berish.</p>
+                  <el-button type="primary" class="rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Batafsil</el-button>
+                  <el-button type="dark" class="rounded-pill py-sm-3 px-sm-5 animated slideInRight">Darslarimiz</el-button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </el-carousel-item>
+    </el-carousel>
 
     <!-- Carousel End -->
 
@@ -78,7 +80,7 @@
     <div class="container-xxl py-5">
       <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-          <h1 class="mb-3">Maktab Imkoniyatlari</h1>
+          <h1 class="mb-3">Bog'cha Imkoniyatlari</h1>
           <p>Farzandingiz uchun eng yaxshi muhitni yaratamiz — xavfsiz transport, sog‘lom ovqatlanish, faol o‘yinlar va ilg‘or ta'lim uslublari bilan ta’minlaymiz.</p>
         </div>
         <div class="row g-4">
@@ -90,8 +92,8 @@
                 <span class="bg-primary"></span>
               </div>
               <div class="facility-text bg-primary">
-                <h3 class="text-primary mb-3">Maktab Avtobusi</h3>
-                <p class="mb-0">Bolalar uchun qulay va xavfsiz transport xizmati har kuni uyidan maktabgacha va ortga olib boriladi.</p>
+                <h3 class="text-primary mb-3">Bog'cha Avtobusi</h3>
+                <p class="mb-0">Bolalar uchun qulay va xavfsiz transport xizmati har kuni uyidan bog'chagacha va ortga olib boriladi.</p>
               </div>
             </div>
           </div>
@@ -198,7 +200,7 @@
               <div class="h-100 d-flex flex-column justify-content-center p-5">
                 <h1 class="mb-4">O‘qituvchi bo‘lishni xohlaysizmi?</h1>
                 <p class="mb-4">Agar siz bolalar bilan ishlashni yaxshi ko‘rsangiz, bilim va tajribangizni boshqalar bilan bo‘lishishni istasangiz, bizning jamoamizga qo‘shiling! Biz doimiy ravishda mehribon va fidoyi o‘qituvchilarni izlaymiz.</p>
-                <a class="btn btn-primary py-3 px-5" href="">Hozir boshlang<i class="fa fa-arrow-right ms-2"></i></a>
+                <a class="btn btn-primary py-3 px-5" href="/sign">Hozir boshlang<i class="fa fa-arrow-right ms-2"></i></a>
               </div>
             </div>
           </div>
@@ -213,8 +215,8 @@
     <div class="container-xxl py-5">
       <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-          <h1 class="mb-3">Maktab Darslari</h1>
-          <p>Bizning maktabimizda har bir o'quvchi o'zining ijodiy qobiliyatlarini rivojlantirish uchun turli darslar va faoliyatlarga ega bo'ladi. Bizning maqsadimiz – har bir bola uchun ta'limni qiziqarli va foydali qilish, shuningdek, ularning shaxsiy va akademik rivojlanishiga yordam berish.</p>
+          <h1 class="mb-3">Bog'cha Darslari</h1>
+          <p>Bizning bog'chaimizda har bir o'quvchi o'zining ijodiy qobiliyatlarini rivojlantirish uchun turli darslar va faoliyatlarga ega bo'ladi. Bizning maqsadimiz – har bir bola uchun ta'limni qiziqarli va foydali qilish, shuningdek, ularning shaxsiy va akademik rivojlanishiga yordam berish.</p>
         </div>
 
         <div class="row g-4">
@@ -753,6 +755,9 @@ onMounted(() => {
   color: #333;
 }
 
+.el-carousel ,.el-carousel__container, .el-carousel__item{
+  height: 80vh !important;
+}
 .navbar {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
