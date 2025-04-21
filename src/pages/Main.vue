@@ -231,7 +231,7 @@
                   <div class="d-flex align-items-center">
                     <img class="rounded-circle flex-shrink-0" src="@/assets/img/user.jpg" alt="" style="width: 45px; height: 45px;">
                     <div class="ms-3">
-                      <h6 class="text-primary mb-1">Jhon Doe</h6>
+                      <h6 class="text-primary mb-1">Keldibekov Farzod</h6>
                       <small>O'qituvchi</small>
                     </div>
                   </div>
@@ -271,7 +271,7 @@
                   <div class="d-flex align-items-center">
                     <img class="rounded-circle flex-shrink-0" src="@/assets/img/user.jpg" alt="" style="width: 45px; height: 45px;">
                     <div class="ms-3">
-                      <h6 class="text-primary mb-1">Jhon Doe</h6>
+                      <h6 class="text-primary mb-1">Keldibekov Farzod</h6>
                       <small>O'qituvchi</small>
                     </div>
                   </div>
@@ -311,7 +311,7 @@
                   <div class="d-flex align-items-center">
                     <img class="rounded-circle flex-shrink-0" src="@/assets/img/user.jpg" alt="" style="width: 45px; height: 45px;">
                     <div class="ms-3">
-                      <h6 class="text-primary mb-1">Jhon Doe</h6>
+                      <h6 class="text-primary mb-1">Keldibekov Farzod</h6>
                       <small>O'qituvchi</small>
                     </div>
                   </div>
@@ -351,7 +351,7 @@
                   <div class="d-flex align-items-center">
                     <img class="rounded-circle flex-shrink-0" src="@/assets/img/user.jpg" alt="" style="width: 45px; height: 45px;">
                     <div class="ms-3">
-                      <h6 class="text-primary mb-1">Jhon Doe</h6>
+                      <h6 class="text-primary mb-1">Keldibekov Farzod</h6>
                       <small>O'qituvchi</small>
                     </div>
                   </div>
@@ -391,7 +391,7 @@
                   <div class="d-flex align-items-center">
                     <img class="rounded-circle flex-shrink-0" src="@/assets/img/user.jpg" alt="" style="width: 45px; height: 45px;">
                     <div class="ms-3">
-                      <h6 class="text-primary mb-1">Jhon Doe</h6>
+                      <h6 class="text-primary mb-1">Keldibekov Farzod</h6>
                       <small>O'qituvchi</small>
                     </div>
                   </div>
@@ -431,7 +431,7 @@
                   <div class="d-flex align-items-center">
                     <img class="rounded-circle flex-shrink-0" src="@/assets/img/user.jpg" alt="" style="width: 45px; height: 45px;">
                     <div class="ms-3">
-                      <h6 class="text-primary mb-1">Jhon Doe</h6>
+                      <h6 class="text-primary mb-1">Keldibekov Farzod</h6>
                       <small>O'qituvchi</small>
                     </div>
                   </div>
@@ -480,13 +480,13 @@
                     <div class="col-sm-6">
                       <div class="form-floating">
                         <input type="text" class="form-control border-0" id="gname" placeholder="Vazir Ismi">
-                        <label for="gname">Vazir Ismi</label>
+                        <label for="gname">Bog'cha rahbari Ismi</label>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-floating">
                         <input type="email" class="form-control border-0" id="gmail" placeholder="Vazir Emaili">
-                        <label for="gmail">Vazir Emaili</label>
+                        <label for="gmail">Bog'cha rahbari Emaili</label>
                       </div>
                     </div>
                     <div class="col-sm-6">
